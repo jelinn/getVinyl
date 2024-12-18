@@ -15,7 +15,20 @@ To use:
 export DISCORD_WEBHOOK="yourURLhere"
 ```
 
-- Set the sleep time in seconds. Default is 5 mins (300 seconds)
+Install python dependencies: 
+```
+pip install -r requirements.txt
+```
 
-- Run the script 
+- Set the sleep time (in seconds) using the waitTime var - default is 5 mins (300 seconds)
 
+```
+waitTime = 300
+```
+
+
+- Run the script in the background
+
+```
+python getGizz.py &
+```
