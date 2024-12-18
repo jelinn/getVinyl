@@ -11,12 +11,11 @@ This script :
 
 To use: 
 - Set discord webhook URL to env variable -
-""" 
+```
 export DISCORD_WEBHOOK="yourURLhere"
-"""
+```
 
 - Set the sleep time in seconds. Default is 5 mins (300 seconds)
 
 - Run the script 
-"""
-# getVinyl
+
